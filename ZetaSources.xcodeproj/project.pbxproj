@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9E23D6D1B2A2093007E1425 /* ZetaSources.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E23D6C1B2A2093007E1425 /* ZetaSources.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9E23D741B2A2093007E1425 /* ZetaSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E23D691B2A2093007E1425 /* ZetaSources.framework */; };
+		E9E23D791B2A2093007E1425 /* ZetaSourcesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E23D781B2A2093007E1425 /* ZetaSourcesTests.swift */; };
+		E9E23D841B2A20C0007E1425 /* ZetaSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E23D831B2A20C0007E1425 /* ZetaSource.swift */; };
+		E9E23D861B2A298B007E1425 /* ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E23D851B2A298B007E1425 /* ReusableCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9E23D751B2A2093007E1425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9E23D601B2A2093007E1425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9E23D681B2A2093007E1425;
+			remoteInfo = ZetaSources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9E23D691B2A2093007E1425 /* ZetaSources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZetaSources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E23D6C1B2A2093007E1425 /* ZetaSources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZetaSources.h; sourceTree = "<group>"; };
+		E9E23D6E1B2A2093007E1425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E23D731B2A2093007E1425 /* ZetaSourcesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZetaSourcesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E23D781B2A2093007E1425 /* ZetaSourcesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZetaSourcesTests.swift; sourceTree = "<group>"; };
+		E9E23D7A1B2A2093007E1425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E23D831B2A20C0007E1425 /* ZetaSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZetaSource.swift; sourceTree = "<group>"; };
+		E9E23D851B2A298B007E1425 /* ReusableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9E23D651B2A2093007E1425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E23D701B2A2093007E1425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E23D741B2A2093007E1425 /* ZetaSources.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9E23D5F1B2A2093007E1425 = {
+			isa = PBXGroup;
+			children = (
+				E9E23D6B1B2A2093007E1425 /* ZetaSources */,
+				E9E23D771B2A2093007E1425 /* ZetaSourcesTests */,
+				E9E23D6A1B2A2093007E1425 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9E23D6A1B2A2093007E1425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9E23D691B2A2093007E1425 /* ZetaSources.framework */,
+				E9E23D731B2A2093007E1425 /* ZetaSourcesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9E23D6B1B2A2093007E1425 /* ZetaSources */ = {
+			isa = PBXGroup;
+			children = (
+				E9E23D6C1B2A2093007E1425 /* ZetaSources.h */,
+				E9E23D851B2A298B007E1425 /* ReusableCell.swift */,
+				E9E23D831B2A20C0007E1425 /* ZetaSource.swift */,
+				E9E23D6E1B2A2093007E1425 /* Info.plist */,
+			);
+			path = ZetaSources;
+			sourceTree = "<group>";
+		};
+		E9E23D771B2A2093007E1425 /* ZetaSourcesTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9E23D781B2A2093007E1425 /* ZetaSourcesTests.swift */,
+				E9E23D7A1B2A2093007E1425 /* Info.plist */,
+			);
+			path = ZetaSourcesTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E9E23D661B2A2093007E1425 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E23D6D1B2A2093007E1425 /* ZetaSources.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E9E23D681B2A2093007E1425 /* ZetaSources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E23D7D1B2A2093007E1425 /* Build configuration list for PBXNativeTarget "ZetaSources" */;
+			buildPhases = (
+				E9E23D641B2A2093007E1425 /* Sources */,
+				E9E23D651B2A2093007E1425 /* Frameworks */,
+				E9E23D661B2A2093007E1425 /* Headers */,
+				E9E23D671B2A2093007E1425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZetaSources;
+			productName = ZetaSources;
+			productReference = E9E23D691B2A2093007E1425 /* ZetaSources.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9E23D721B2A2093007E1425 /* ZetaSourcesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E23D801B2A2093007E1425 /* Build configuration list for PBXNativeTarget "ZetaSourcesTests" */;
+			buildPhases = (
+				E9E23D6F1B2A2093007E1425 /* Sources */,
+				E9E23D701B2A2093007E1425 /* Frameworks */,
+				E9E23D711B2A2093007E1425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9E23D761B2A2093007E1425 /* PBXTargetDependency */,
+			);
+			name = ZetaSourcesTests;
+			productName = ZetaSourcesTests;
+			productReference = E9E23D731B2A2093007E1425 /* ZetaSourcesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9E23D601B2A2093007E1425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jonathan Hersh";
+				TargetAttributes = {
+					E9E23D681B2A2093007E1425 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					E9E23D721B2A2093007E1425 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = E9E23D631B2A2093007E1425 /* Build configuration list for PBXProject "ZetaSources" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9E23D5F1B2A2093007E1425;
+			productRefGroup = E9E23D6A1B2A2093007E1425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9E23D681B2A2093007E1425 /* ZetaSources */,
+				E9E23D721B2A2093007E1425 /* ZetaSourcesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9E23D671B2A2093007E1425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E23D711B2A2093007E1425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9E23D641B2A2093007E1425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E23D861B2A298B007E1425 /* ReusableCell.swift in Sources */,
+				E9E23D841B2A20C0007E1425 /* ZetaSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E23D6F1B2A2093007E1425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E23D791B2A2093007E1425 /* ZetaSourcesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9E23D761B2A2093007E1425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9E23D681B2A2093007E1425 /* ZetaSources */;
+			targetProxy = E9E23D751B2A2093007E1425 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E9E23D7B1B2A2093007E1425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9E23D7C1B2A2093007E1425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9E23D7E1B2A2093007E1425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZetaSources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JH.ZetaSources;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9E23D7F1B2A2093007E1425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZetaSources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JH.ZetaSources;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E9E23D811B2A2093007E1425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZetaSourcesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JH.ZetaSourcesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9E23D821B2A2093007E1425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZetaSourcesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JH.ZetaSourcesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9E23D631B2A2093007E1425 /* Build configuration list for PBXProject "ZetaSources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E23D7B1B2A2093007E1425 /* Debug */,
+				E9E23D7C1B2A2093007E1425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9E23D7D1B2A2093007E1425 /* Build configuration list for PBXNativeTarget "ZetaSources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E23D7E1B2A2093007E1425 /* Debug */,
+				E9E23D7F1B2A2093007E1425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9E23D801B2A2093007E1425 /* Build configuration list for PBXNativeTarget "ZetaSourcesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E23D811B2A2093007E1425 /* Debug */,
+				E9E23D821B2A2093007E1425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9E23D601B2A2093007E1425 /* Project object */;
+}
